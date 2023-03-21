@@ -1,0 +1,32 @@
+/*
+Theme main: Theme Projet Pro
+Author: Projet Pro Team
+Description: Mon super theme custom
+Version: 0.0.1
+Tags: bootstrap, html, css, php, pleins de mots clé pour le référencement
+*/
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.list-archive a{
+    color: white;
+}
+.menu-style{
+    background-color: rgb(68, 125, 68);
+}
+.menu-style:hover{
+    background-color: greenyellow;
+    color: brown;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+name: pp-cours-wordpress
+recipe: wordpress
+config:
+  webroot: .
+services:
+  database:
+    type: mysql
+    portforward: 3307
+    creds:
+      user: admin
+      password: admin
+      database: wordpress
+tooling:
+  install:
+    service: appserver
+    description: "commande pour installer worpress"
+    cmd:
+      - echo Installation Wordpress....
+      - php config/install_wp.php

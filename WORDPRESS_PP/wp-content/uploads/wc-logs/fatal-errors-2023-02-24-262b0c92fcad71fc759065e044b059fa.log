@@ -1,0 +1,13 @@
+2023-02-24T09:50:21+00:00 CRITICAL require(): Failed opening required '/app/wp-content/plugins/mailpoet/vendor/composer/../../vendor-prefixed/symfony/polyfill-ctype/bootstrap.php' (include_path='.:/usr/local/lib/php') dans /app/wp-content/plugins/mailpoet/vendor/composer/autoload_real.php à la ligne 36
+
+2023-02-24T09:50:34+00:00 CRITICAL require(): Failed opening required '/app/wp-content/plugins/mailpoet/vendor/composer/../../vendor-prefixed/symfony/polyfill-ctype/bootstrap.php' (include_path='.:/usr/local/lib/php') dans /app/wp-content/plugins/mailpoet/vendor/composer/autoload_real.php à la ligne 36
+
+2023-02-24T09:51:06+00:00 CRITICAL Uncaught Error: Class 'MailPoetVendor\Symfony\Component\Validator\Validation' not found in /app/wp-content/plugins/mailpoet/lib/Doctrine/Validator/ValidatorFactory.php:25
+Stack trace:
+#0 /app/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(2341): MailPoet\Doctrine\Validator\ValidatorFactory->createValidator()
+#1 /app/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(518): MailPoetGenerated\FreeCachedContainer->getEntityManagerFactoryService()
+#2 /app/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(3523): MailPoetGenerated\FreeCachedContainer->getEntityManagerService()
+#3 /app/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(3513): MailPoetGenerated\FreeCachedContainer->getSettingsRepositoryService()
+#4 /app/wp-content/plugins/mailpoet/generated/FreeCachedContainer.php(1780): MailPoetGenerated\FreeCachedContainer->getSettingsControllerService()
+#5 /app/wp-content/plugins/mailpoet/vendor-prefixed/symfony/dependency-injection/Container.php(122): MailPoetGenera dans /app/wp-content/plugins/mailpoet/lib/Doctrine/Validator/ValidatorFactory.php à la ligne 25
+

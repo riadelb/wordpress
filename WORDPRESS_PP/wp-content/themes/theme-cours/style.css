@@ -1,0 +1,39 @@
+/*
+Theme Name: Thème Projet Pro
+Author: Projet Pro Team
+Description: Mon super thème custom
+Version: 0.0.1
+Tags: bootstrap, html, css, php, pleins de mots clé pour le référencement
+*/
+
+body{
+    background-color: inherit !important;
+}
+img{
+    width: 100% !important;
+    object-fit: contain;
+}
+
+.logo-img{
+    width: 100vw;
+}
+
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.list-archive a{
+   color: #fff;
+}
+
+.cart_totals h2{
+    color:blue;
+}
+
+
+.menu-style:hover{
+    background-color: white !important;
+    color: green !important;
+}
